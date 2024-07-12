@@ -1,0 +1,333 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+*,
+*::after,
+*::before {
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.bg-dark {
+  background-color: black;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-self-end {
+  align-self: flex-end;
+}
+
+.text-primary {
+  color: #15161d;
+}
+
+.text-secondary {
+  color: #d1d1d1;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-end {
+  text-align: right;
+}
+
+body {
+  font-family: "Bruno Ace SC", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.nav {
+  padding: 40px 0;
+}
+.nav :link,
+.nav :visited {
+  color: #d1d1d1;
+}
+
+.header {
+  padding: 72px 0 32px 0;
+}
+.header img {
+  width: 636px;
+  height: 848px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 24px;
+}
+.header .headerContent {
+  width: 636px;
+}
+.header .headerContent :link,
+.header .headerContent :visited {
+  color: black;
+}
+.header .headerContent p {
+  font-size: 64px;
+}
+.header .headerContent h1 {
+  color: #00ffa3;
+  font-size: 128px;
+}
+.header .headerContent a {
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+
+.introduction {
+  padding: 160px 0;
+  background: url(https://s3-alpha-sig.figma.com/img/08c8/acd3/3af71aa0c2385e51be55f0c2777b2eb8?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PY8mVdzq5P2UkWK1WkBU41WCR56qcvdAEvmX5XhicMfSz1qW89NHUFWflOFLAKZobl7pGHja2cnqrvCQsiUgCIJakBPeJdwr2PdrXxekHpZDnqmTN8VdnDPs1iyjuL4-rv8UQYiV5MesWF0cAplgvo-9HPGya0KjVml6B2uAdI01Z4DFxQh3rZq-JXkgOhDTltPD2DPlWbVEZCJdsGY-RRntefpbB9xxTgGx2b3GYqIhDY1cZfBfgqq35s3j3ldeRxdFhjEfFt~-KsgFmZvV5qQAoGnd9Ysjzmy9NQM8-Q88j9wSp~nfnaOdiXK4QLgLupcQAgigga-GmJCSwO3x-w__) no-repeat;
+  background-size: cover;
+}
+.introduction .introductionContent {
+  width: 526px;
+}
+.introduction .introductionContent h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.introduction .introductionContent p {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.introduction .introductionContent .diamond {
+  width: 32px;
+  height: 98px;
+  margin-right: 16px;
+  background: linear-gradient(transparent, rgba(217, 217, 217, 0.5), transparent), linear-gradient(to right, transparent, rgba(217, 217, 217, 0.5), transparent);
+  background-blend-mode: screen;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.introduction .introductionImg1 {
+  width: 196px;
+  height: 600px;
+  background: linear-gradient(transparent, rgba(217, 217, 217, 0.5), transparent), linear-gradient(to right, transparent, rgba(217, 217, 217, 0.5), transparent);
+  background-blend-mode: screen;
+  -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+          clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.introduction .introductionImg2 {
+  width: 196px;
+  height: 600px;
+  background: url(https://s3-alpha-sig.figma.com/img/e43c/9b5b/383a3ef834ca27f08c94bdf02f3a4f5f?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BlBVssGsarK7jktWe~tGWufyursyJ-iZRnZb7-NYVD1hdTAqBFoTcMWMBIzdpNWtHEByUqGsThW7Et0hsjkLykBrpBpHEuY2AxQSD6oIy8xIJjqTZovzPBXBuXBhItmQ6OhEuiHy~RIsoSRldFfENbQuABo0wUm0lglyw5XjmbBREwT1MuFFTWlUtR8MJWav9zkMhYDar2ZNHdeR7sd9vupK2mmUTy2nlYQnQGHnqUTpVm3ZfJmxq3U-69eJYy4~1n-n9dbq181GIqpBlc4pF~CjdK8k4sGLt7tOvqQJd2hAcHrNFIf~xVFQng3DbJTvEoHvrgeuT1RuVXbidLmNSw__) no-repeat center;
+  background-size: cover;
+}
+.introduction .introductionImg3 {
+  width: 306px;
+  height: 600px;
+  background: url(https://s3-alpha-sig.figma.com/img/c030/6436/8cba0234823566460c578d809eb6834c?Expires=1721606400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=e8vjwLVHT~wW269EGOf4Ny9Z3BcMpE5g8NGGERqEB8PpvR53vBBTXtnCgNEzeyKGUBFNNpDRbIQes-UN-bUzARmV7od9Op0q8WGSMmBjUM3qK5gj6H6dumuZSXM9cm5I~5crm~i5ueUznzKrEZfn3c5kqVSM2O~feodySxhrUl4SZhE3UD1RjwznESfxkdua5QQJRJtKSSta1LX9jt~uBcvF99qb83j1nqsxEeImkEMnZMfQBL7aIzoaNNVViwKw~3PgKguPvF4hqY9gbhpZyfCQ3XGDOFQFmZRMSJhe7NK5MPaTcIsBvte78hhWm7v3O~Ihu6261WTPVBEXM4P6tw__) no-repeat center;
+  background-size: cover;
+}
+
+.aboutMe {
+  padding: 160px 0;
+}
+.aboutMe .personality {
+  width: 636px;
+  gap: 24px;
+}
+.aboutMe .personality li {
+  width: 306px;
+  padding: 16px;
+  border: #e3e3e3 1px solid;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.0784313725);
+}
+.aboutMe .personality li h3 {
+  font-size: 20px;
+}
+.aboutMe .selfIntroduction {
+  width: 526px;
+}
+.aboutMe .selfIntroduction h2 {
+  font-size: 64px;
+  margin-bottom: 36px;
+}
+.aboutMe .selfIntroduction p {
+  font-size: 24px;
+}
+
+.contactMe {
+  padding: 96px 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contactMe h2 {
+  font-size: 64px;
+  margin-right: 16px;
+}
+.contactMe svg {
+  height: 100px;
+  width: 100px;
+}
+.contactMe ul {
+  width: 562px;
+}
+.contactMe ul li {
+  height: 162px;
+  width: 162px;
+}
+.contactMe ul li a {
+  display: block;
+  border-radius: 40px;
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.0784313725);
+}
+.contactMe ul li a img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 40px;
+  height: 162px;
+}
+.contactMe ul li a:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
+}
+
+.project {
+  padding: 160px 0;
+}
+.project h2 {
+  font-size: 64px;
+  width: 746px;
+}
+.project .projectImg1 {
+  height: 530px;
+  width: 416px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 24px;
+}
+.project .projectImg2 {
+  height: 196px;
+  width: 196px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 24px;
+  margin-bottom: 28px;
+}
+.project p {
+  width: 636px;
+}
+.project a {
+  border-radius: 32px;
+  padding: 12px 24px;
+  background-color: #000000;
+  margin-bottom: 28px;
+}
+.project .projectImg3 {
+  height: 306px;
+  width: 306px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 24px;
+}
+.project .projectImg4 {
+  height: 306px;
+  width: 526px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer {
+  padding: 40px 0;
+}/*# sourceMappingURL=all.css.map */
