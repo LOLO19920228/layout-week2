@@ -9,6 +9,9 @@ body {
 }
 .nav {
   padding: 40px 0;
+  a:hover {
+    color: #fff;
+  }
   :link,
   :visited {
     color: #d1d1d1;
@@ -38,6 +41,9 @@ body {
     a {
       padding: 12px 24px;
       border-radius: 32px;
+    }
+    a:hover {
+      background-color: #d1d1d1;
     }
   }
 }
@@ -184,7 +190,7 @@ body {
     margin-right: 24px;
     margin-bottom: 28px;
   }
-  p{
+  p {
     width: 636px;
   }
   a {
@@ -193,18 +199,21 @@ body {
     background-color: #000000;
     margin-bottom: 28px;
   }
-    .projectImg3 {
+  a:hover {
+    background-color: #d1d1d1;
+  }
+  .projectImg3 {
     height: 306px;
     width: 306px;
     object-fit: cover;
     margin-right: 24px;
   }
-    .projectImg4 {
+  .projectImg4 {
     height: 306px;
     width: 526px;
     object-fit: cover;
   }
 }
-.footer{
+.footer {
   padding: 40px 0;
 }

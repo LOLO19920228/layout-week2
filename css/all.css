@@ -142,6 +142,9 @@ body {
 .nav {
   padding: 40px 0;
 }
+.nav a:hover {
+  color: #fff;
+}
 .nav :link,
 .nav :visited {
   color: #d1d1d1;
@@ -174,6 +177,9 @@ body {
 .header .headerContent a {
   padding: 12px 24px;
   border-radius: 32px;
+}
+.header .headerContent a:hover {
+  background-color: #d1d1d1;
 }
 
 .introduction {
@@ -313,6 +319,9 @@ body {
   padding: 12px 24px;
   background-color: #000000;
   margin-bottom: 28px;
+}
+.project a:hover {
+  background-color: #d1d1d1;
 }
 .project .projectImg3 {
   height: 306px;
